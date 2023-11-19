@@ -1,0 +1,142 @@
+@import url(reset.css);
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:regular,700&display=swap");
+
+/* Major Font */
+
+
+ @font-face { 
+    font-family: "Causten";
+    src: url("../fonts/Causten-Regular.woff2") format("woff2"), 
+        url("../fonts/Causten-Regular.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+}
+
+@font-face {
+    font-family: "Causten";
+    src: url("../fonts/Causten-Bold.woff2") format("woff2"),
+        url("../fonts/Causten-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Causten";
+    src: url("../fonts/Causten-Light.woff2") format("woff2"),
+        url("../fonts/Causten-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Causten";
+    src: url("../fonts/Causten-Medium.woff2") format("woff2"),
+        url("../fonts/Causten-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Causten";
+    src: url("../fonts/Causten-Semi-Bold.woff2") format("woff2"),
+        url("../fonts/Causten-Semi-Bold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Puma Fonts setting */
+
+body{
+    font-family: "Causten", serif;
+    font-size: 18px;
+    color: black;
+    line-height: 1.80;
+}
+.title{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.text{
+    text-indent: 10px;
+    text-shadow: 2px 2px 2px #6c61b3;
+}
+.subtitle{
+    font-family: Comfortaa;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.puma{
+    text-decoration: underline;
+}
+.text3,.text2{
+    color: rgb(86, 117, 117);
+}
+.next-task{
+    text-shadow: 7px 2px 5px #702828;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+
+/* Consulting website Fonts setting */
+
+/* Title */
+
+.cons-web-title{
+        color: #37393F;
+        font-family: "Poppins";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.27;
+}
+.cons-web-text{
+        color: #7D7D7D;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.47;
+}
+.cons-web-title-2{
+        color: #6B77E5;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.27;
+}       
+.cons-web-title-big{
+    color: #37393F;
+        font-family: "Poppins";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.27;
+}
+.cons-web-list{
+    color: #7D7D7D;
+        font-family: "Inter";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.47;
+}
+
+
