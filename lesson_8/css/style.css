@@ -1,0 +1,408 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+/* Header */
+
+.header {
+  height: 100px;
+  background-image: linear-gradient(90deg,
+      rgba(5, 5, 5, 1) 0%,
+      rgba(121, 108, 9, 0.7651435574229692) 78%);
+  color: cadetblue;
+  text-shadow: 5px 5px 5px #000;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  font-size: large;
+  padding-top: 42px;
+}
+
+.header a {
+  padding-right: 50px;
+}
+
+/* Main */
+
+/* Home Work */
+
+.home-work-block {
+  max-width: 1300px;
+  margin: 50px auto 50px;
+}
+
+.home-work {
+  background-image: url("../img/monterey.bmp");
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.home-work2 {
+  background-image: url("../img/monterey.bmp");
+  background-attachment: scroll;
+  background-size: 100%;
+  margin-bottom: 20px;
+}
+
+.home-work3 {
+  background: yellow url("../img/monterey.bmp") 0 0 / 200px no-repeat;
+  margin-bottom: 30px;
+  border-bottom: goldenrod dotted 10px;
+}
+
+.home-work4 {
+  background: radial-gradient(circle,
+      rgba(132, 190, 68, 1) 0%,
+      rgba(43, 54, 11, 1) 41%,
+      rgba(219, 199, 36, 0.9164040616246498) 69%);
+}
+
+.home-work5 {
+  background-image: url("../img/monterey.bmp");
+  background-attachment: fixed;
+}
+
+/* Part 1 */
+.part1 {
+  max-width: 650px;
+  margin: 0 auto 30px;
+  font-family: "Inter";
+  color: #7d7d7d;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.47;
+}
+
+.sub-title-we-care-about {
+  background-image: url("../img/square.jpg");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  color: #37393f;
+  padding-left: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  background-position: left center;
+}
+
+.title-we-care-about {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 20px;
+}
+
+.text-we-care-about {
+  margin-bottom: 15px;
+}
+
+.list-we-care-about {
+  margin-top: 20px;
+  margin-bottom: 43px;
+}
+
+.list-we-care-about li {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: normal;
+  line-height: 1.65;
+  background-image: url("../img/vector.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+  padding-left: 35px;
+  margin-bottom: 23px;
+}
+
+.experience {
+  width: 293px;
+  height: 138px;
+  border: 1px solid #e3e3e3;
+  display: inline-block;
+  margin-bottom: 37px;
+}
+
+.awards {
+  width: 293px;
+  height: 138px;
+  border: 1px solid #e3e3e3;
+  display: inline-block;
+  margin-left: 21px;
+}
+
+.experience-filling {
+  background-image: url("../img/list.jpg");
+}
+
+.experience-filling,
+.awards-filling {
+  font-size: 16px;
+  line-height: 1.35;
+  margin: 31px 32px 32px 32px;
+  background-repeat: no-repeat;
+  padding-left: 57px;
+}
+
+.awards-filling {
+  background-image: url("../img/cup.jpg");
+}
+
+.experience-filling h3 {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.awards-filling h3 {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.link-we-care-about {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  background: #6b77e5;
+  display: inline-block;
+  padding: 21px 27px;
+}
+
+/* Part 2 */
+
+.latest-project-block {
+  max-width: 1230px;
+  margin: 0px auto 30px;
+  color: #7d7d7d;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.47;
+}
+
+.latest-project-sub-title {
+  color: #37393f;
+  font-weight: 500;
+  line-height: normal;
+  background-image: url("../img/square.jpg");
+  background-size: 12px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: left center;
+  padding-left: 18px;
+  margin-bottom: 14px;
+}
+
+.latest-project-title {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 14px;
+}
+
+.latest-project-text {
+  margin-bottom: 47px;
+}
+
+.projects {
+  max-width: 1300px;
+  margin: 0 auto 58px;
+}
+
+.projects-link {
+  display: inline-block;
+  width: 385px;
+  margin-right: 34px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.photo-link,
+.photo-link-2,
+.photo-link-3,
+.photo-link-4,
+.photo-link-5,
+.photo-link-6 {
+  background-image: url("../img/photo\(0\).jpg");
+  margin-bottom: 24px;
+  height: 500px;
+}
+
+.title-link {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.date-link {
+  color: #7d7d7d;
+  font-family: "Inter";
+  font-size: 14px;
+  background-image: url("../img/vector2.jpg");
+  background-repeat: no-repeat;
+  height: 22px;
+  padding-left: 25px;
+  line-height: 1.5;
+}
+
+.photo-link-2 {
+  background-image: url("../img/photo\(1\).jpg");
+}
+
+.photo-link-3 {
+  background-image: url("../img/photo\(2\).jpg");
+}
+
+.photo-link-4 {
+  background-image: url("../img/photo\(3\).jpg");
+}
+
+.photo-link-5 {
+  background-image: url("../img/photo\(4\).jpg");
+}
+
+.photo-link-6 {
+  background-image: url("../img/photo\(5\).jpg");
+}
+
+/* Part 3*/
+
+.cfw-title {
+  max-width: 1300px;
+  margin: 0 auto 30px;
+  color: #3c4242;
+  font-family: "Core Sans C", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.56px;
+  padding-left: 21px;
+  background-image: url("../img/restangle.png");
+  background-size: 6px 28px;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.cfw-block {
+  color: #807d7e;
+  max-width: 1250px;
+  margin: 0px auto 30px;
+  color: #807d7e;
+  font-family: "Causten";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.4px;
+}
+
+.cfw-sub-title {
+  color: #807d7e;
+  font-family: "CoreSansC", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.67;
+  letter-spacing: 0.4px;
+  margin-bottom: 25px;
+}
+
+.cfw-text {
+  margin-bottom: 20px;
+}
+
+.cfw-text span {
+  font-weight: 700;
+}
+
+.cfw-text p {
+  margin-bottom: 20px;
+}
+
+.cfw-link {
+  font-family: "CoreSansC", sans-serif;
+  font-weight: 600;
+}
+
+/* Part 4 */
+
+.we-made-your-fachion-block {
+  max-width: 1300px;
+  margin: 0 auto 0;
+}
+
+.we-made-your-fachion {
+  background-image: url("../img/unsplash.jpg");
+  height: 640px;
+  width: 615px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.we-made-your-fachion2 {
+  background-image: url("../img/guys.jpg");
+  height: 640px;
+  width: 626px;
+  display: inline-block;
+}
+
+.we-made-your-fachion h2 {
+  color: #fff;
+  font-family: "CoreSansC";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.47;
+  letter-spacing: 0.208px;
+  text-transform: uppercase;
+  margin: 183px 74px 30px 74px;
+}
+
+.we-made-your-fachion p {
+  color: #fff;
+  font-family: "Causten";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin: 0 89px 50px 74px;
+}
+
+.we-made-your-fachion a {
+  font-family: "Causten";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+  padding: 12px 44px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 74px;
+}
+
+/* Footer */
+
+.footer {
+  height: 300px;
+  background-image: url("../img/dragon_on_fire.png");
+  border-radius: 15px;
+}
