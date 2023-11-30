@@ -1,0 +1,748 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+/* Header */
+
+/* Main */
+
+.body {
+  background-color: slategrey;
+}
+
+.header {
+  background: #37393F;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.game-link,
+.part2-link,
+.part3-link,
+.part4-link,
+.part5-link {
+  margin-left: 100px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.game-img,
+.part2-img,
+.part3-img,
+.part4-img,
+.part5-img,
+.footer-up {
+  width: 50px;
+  height: 50px;
+}
+
+.game-img:hover {
+  opacity: 50%;
+}
+
+.part2-img:hover {
+  opacity: 50%;
+}
+
+.part3-img:hover {
+  opacity: 50%;
+}
+
+.part4-img:hover {
+  opacity: 50%;
+}
+
+
+.part5-img:hover {
+  opacity: 50%;
+}
+
+
+/* Home work */
+
+
+.home-work {
+  max-width: 1300px;
+  margin: 0 auto 30px;
+}
+
+.home-work h5 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.home-work h5:first-of-type {
+  margin-top: 20px;
+}
+
+h5::before {
+  background-color: tomato;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  content: "";
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.bbutton {
+  font-family: "CormorantInfant";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  display: inline-block;
+  background-color: darkgray;
+  text-transform: uppercase;
+  text-align: center;
+  width: 300px;
+  height: 100px;
+  padding: 40px;
+
+}
+
+.bbutton:hover {
+  color: bisque;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 35px;
+}
+
+.iamabutton {
+  font-family: "Inter";
+  font-size: 25px;
+  background-color: rgb(41, 40, 40);
+  color: gray;
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  vertical-align: top;
+  padding: 38px 20px;
+  opacity: 0.4;
+}
+
+.iamabutton:hover {
+  opacity: 1;
+}
+
+.iamabuttonto {
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+  background-color: ghostwhite;
+  font-family: "Causten";
+  font-weight: 700;
+  font-size: 20px;
+  padding: 25px;
+}
+
+.iamabuttonto:focus {
+  outline: 5px solid gold;
+}
+
+
+.open-box {
+  display: inline-block;
+  font-family: "Causten";
+  font-weight: 400;
+  font-size: 20px;
+
+}
+
+.open-box:active {
+  background-color: crimson;
+}
+
+.open-box:visited {
+  color: cornsilk;
+}
+
+.box {
+  display: inline-block;
+  width: 400px;
+  height: 100px;
+  font-size: 40px;
+  font-weight: 700;
+  background-color: tomato;
+  visibility: hidden;
+  vertical-align: top;
+}
+
+.box:target {
+  visibility: visible;
+}
+
+.home-work-text,
+.home-work-text2,
+.home-work-text3,
+.home-work-text4,
+.home-work-text5,
+.home-work-text6,
+.home-work-text7,
+.home-work-text8 {
+  font-size: 18px;
+  color: bisque;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-work-text p:nth-child(even) {
+  color: darkmagenta;
+}
+
+
+.home-work-text2 p:nth-child(odd) {
+  color: blueviolet;
+}
+
+.home-work-text3 p:nth-child(6) {
+  color: yellowgreen;
+}
+
+.home-work-text4 p:nth-child(3n+2) {
+  color: aqua;
+}
+
+.home-work-text5 :first-child {
+  color: darkblue;
+}
+
+.home-work-text6 :last-child {
+  color: blue;
+}
+
+.home-work-text7 p:first-of-type {
+  color: palegreen;
+}
+
+.home-work-text8 p:last-of-type {
+  color: darkgoldenrod
+}
+
+/* GAME */
+
+.game-title {
+  font-family: "Causten";
+  font-size: 50px;
+  margin-bottom: 15px;
+  text-shadow: 5px 2px 5px #539b73;
+  text-align: center;
+}
+
+.game {
+  width: 500px;
+  height: 500px;
+  background-color: darkkhaki;
+  margin: 0 auto 70px;
+  font-size: 0;
+}
+
+.game1,
+.game2,
+.game3,
+.game4,
+.game5,
+.game6,
+.game7,
+.game8 {
+  background-color: crimson;
+  display: inline-block;
+}
+
+.game1 {
+  height: 20px;
+  width: 20px;
+  vertical-align: top;
+}
+
+.game1:hover~.game2,
+.game2:hover {
+  visibility: visible;
+}
+
+.game2 {
+  height: 20px;
+  width: 170px;
+  vertical-align: top;
+  visibility: hidden;
+
+}
+
+.game2:hover~.game3,
+.game3:hover {
+  visibility: visible;
+}
+
+.game3 {
+  width: 20px;
+  height: 300px;
+  vertical-align: top;
+  visibility: hidden;
+
+}
+
+.game3:hover~.game4,
+.game4:hover {
+  visibility: visible;
+}
+
+.game4 {
+  height: 20px;
+  width: 200px;
+  vertical-align: 180px;
+  visibility: hidden;
+
+}
+
+.game4:hover~.game5,
+.game5:hover {
+  visibility: visible;
+}
+
+.game5 {
+  width: 20px;
+  height: 300px;
+  vertical-align: top;
+  visibility: hidden;
+}
+
+.game5:hover~.game6,
+.game6:hover {
+  visibility: visible;
+}
+
+.game6 {
+  width: 40px;
+  height: 20px;
+  vertical-align: top;
+  visibility: hidden;
+}
+
+.game6:hover~.game7,
+.game7:hover {
+  visibility: visible;
+}
+
+.game7 {
+  width: 20px;
+  height: 480px;
+  visibility: hidden;
+}
+
+.game7:hover~.game8,
+.game8:hover {
+  visibility: visible;
+}
+
+.game8 {
+  width: 20px;
+  height: 20px;
+  margin-left: 470px;
+  visibility: hidden;
+}
+
+.game8:hover~.game9 {
+  visibility: visible;
+}
+
+.game9 {
+  font-size: 30px;
+  padding-left: 450px;
+  visibility: hidden;
+}
+
+
+/* Why us */
+
+.why-us-container {
+  background-color: #fff;
+  max-width: 720px;
+  margin: 0 auto 0;
+  padding: 10px;
+  color: #7D7D7D;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.47;
+
+}
+
+.why-us-title {
+  color: #37393F;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.27;
+}
+
+.why-us-title:nth-of-type(2) {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.why-us-text:not(:last-child) {
+  margin-bottom: 42px;
+}
+
+.why-us-text:nth-of-type(2) {
+  margin-bottom: 40px;
+}
+
+
+.why-us-sub-title {
+  color: #6B77E5;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.27;
+}
+
+.why-us-sub-title:nth-child(2) {
+  color: #40DDB6;
+  margin-bottom: 21px;
+  display: inline-block;
+  width: 332px;
+}
+
+.why-us-title,
+.why-us-sub-title {
+  margin-bottom: 12px;
+}
+
+.why-us-image {
+  margin-bottom: 50px;
+}
+
+.why-us-box {
+  display: inline-block;
+  margin-left: 29px;
+}
+
+.why-us-list-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+
+.why-us-list-item::before {
+  background: url("../img/tor.svg") 0 0 no-repeat;
+  display: inline-block;
+  content: "";
+  width: 30px;
+  height: 30px;
+  vertical-align: -9px;
+  margin-right: 8px;
+}
+
+/* We care about */
+
+.we-care-about-container {
+  max-width: 720px;
+  margin: 10px auto 10px;
+  background-color: #fff;
+  padding: 10px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  color: #7d7d7d;
+  line-height: 1.47;
+}
+
+.whitecollar {
+  color: #37393F;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+.whitecollar::before {
+  background: #40DDB6;
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+}
+
+.we-care-about-title {
+  color: #37393F;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  width: 420px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.we-care-about-text p {
+  margin-bottom: 28px;
+}
+
+.we-care-about-text p:nth-child(2) {
+  margin-bottom: 48px;
+}
+
+.inside-box p:nth-child(2) {
+  margin-left: 49px;
+}
+
+
+.we-care-about-sub-title {
+  color: #37393F;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.we-care-about-sub-title::before {
+  background: url("../img/tor.svg") 0 0 no-repeat;
+  height: 30px;
+  width: 30px;
+  content: "";
+  display: inline-block;
+  vertical-align: -7px;
+  margin-right: 19px;
+
+}
+
+.our-box {
+  border: 1px solid #E3E3E3;
+  width: 675px;
+  height: 150px;
+  margin-bottom: 31px;
+}
+
+.our-box:last-of-type {
+  margin-bottom: 48px;
+}
+
+.inside-box {
+  margin: 28px 41px 28px 38px;
+}
+
+.we-care-about-button {
+  display: inline-block;
+  text-transform: capitalize;
+  background: #6B77E5;
+  color: white;
+  width: 200px;
+  height: 65px;
+  padding: 21px 35px 22px 35px;
+}
+
+.we-care-about-button:hover {
+  background: blueviolet;
+}
+
+/* How we work */
+
+.how-we-work-container {
+  max-width: 1250px;
+  margin: 0 auto 10px;
+  background-color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 18px;
+}
+
+.logo-title,
+.how-we-work-link,
+.how-we-work-title,
+.how-we-work-sub-title {
+  text-transform: capitalize;
+}
+
+.logo-title {
+  color: #37393F;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.logo-title::before {
+  background-color: #40DDB6;
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  content: "";
+  margin-right: 6px;
+}
+
+
+.how-we-work-title {
+  color: #37393F;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  margin-bottom: 77px;
+}
+
+.how-we-work-box {
+  display: inline-block;
+  background-color: #F4F4F4;
+  width: 386px;
+  height: 301px;
+  padding: 58px 43px;
+  margin-bottom: 20px;
+}
+
+.how-we-work-box:not(:last-child) {
+  margin-right: 31px;
+}
+
+.how-we-work-box::before {
+  content: "";
+  background: url("../img/icon2.svg") no-repeat center;
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin-top: -90px;
+  margin-bottom: 22px;
+  margin-left: 114px;
+}
+
+.how-we-work-box:nth-of-type(2)::before {
+  content: "";
+  background: url("../img/icon1.svg") no-repeat center;
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin-top: -90px;
+  margin-bottom: 22px;
+  margin-left: 114px;
+}
+
+.how-we-work-box:last-of-type::before {
+  content: "";
+  background: url("../img/icon.svg") no-repeat center;
+  width: 72px;
+  height: 72px;
+  display: block;
+  margin-top: -90px;
+  margin-bottom: 22px;
+  margin-left: 114px;
+}
+
+
+.how-we-work-sub-title {
+  color: #37393F;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.27;
+  margin-bottom: 16px;
+}
+
+.how-we-work-text {
+  color: #7D7D7D;
+  font-weight: 400;
+  line-height: 1.47;
+  margin-bottom: 37px;
+
+}
+
+.how-we-work-link {
+  color: #6B77E5;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.how-we-work-link:hover {
+  text-decoration: underline;
+}
+
+/* Jewels */
+
+.jewels-container {
+  max-width: 1400px;
+  padding: 10px;
+  margin: 0 auto 10px;
+  background-color: #fff;
+  color: #000;
+  font-family: "CormorantInfant";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4;
+
+}
+
+.jewels-title {
+  display: inline-block;
+  font-size: 60px;
+  line-height: 1.15;
+  width: 488px;
+  height: 138px;
+  text-transform: capitalize;
+  vertical-align: 220px;
+}
+
+.jewels-title::after {
+  content: "";
+  background-color: #78473B;
+  height: 3px;
+  width: 62%;
+  display: block;
+  margin-top: 13px;
+}
+
+.jewels-box {
+  display: inline-block;
+}
+
+.jewels-box::before {
+  display: block;
+  content: "";
+  background: url("../img/restangle.png");
+  width: 334px;
+  height: 381px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-right: 55px;
+  box-shadow: white -9px -9px 0 0, black -9px -9px 0 1px;
+}
+
+.jewels-box2 {
+  display: inline-block;
+  vertical-align: -150px;
+}
+
+.jewels-box2 img {
+  margin-bottom: 25px;
+  width: 334px;
+  height: 381px;
+  box-shadow: white -9px -9px 0 0, black -9px -9px 0 1px;
+
+}
+
+.jewels-box2::before {
+  content: "#02 new jewellery collection";
+  color: #000;
+  font-size: 46px;
+  line-height: 1.13;
+  width: 339px;
+  height: 156px;
+  display: block;
+}
+
+.jewels-link:hover {
+  text-decoration: underline;
+}
+
+.jewels-link2:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+.footer-up:hover {
+  inline-size: 70px;
+}
