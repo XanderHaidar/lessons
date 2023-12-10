@@ -1,0 +1,459 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+
+body {
+    background-color: slategrey;
+}
+
+
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    background-image: url("../img/cyber_cityjpg.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.header {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 78%, rgba(132, 190, 68, 1) 86%, rgba(6, 6, 6, 1) 94%);
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    opacity: 0.9;
+    color: yellowgreen;
+
+}
+
+[class*="__container"] {
+    max-width: 1250px;
+    margin: 0 auto 100px;
+    padding: 35px;
+    text-align: center;
+
+}
+
+/* ===================================================== */
+
+
+
+
+
+/* ==================================================== */
+
+.speed-effect1 {
+    position: fixed;
+    background: rgb(106, 189, 60);
+    background: linear-gradient(62deg, rgba(106, 189, 60, 1) 15%, rgba(20, 50, 92, 1) 40%, rgba(111, 47, 144, 1) 80%, rgba(210, 86, 205, 1) 96%);
+    width: 2100px;
+    height: 8px;
+    top: 100px;
+    right: -100px;
+    animation-name: speed-effect;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(15, 30, 30, 50);
+
+}
+
+.speed-effect2 {
+    position: fixed;
+    background: rgb(106, 189, 60);
+    background: linear-gradient(62deg, rgba(106, 189, 60, 1) 15%, rgba(20, 50, 92, 1) 40%, rgba(111, 47, 144, 1) 80%, rgba(210, 86, 205, 1) 96%);
+    width: 2100px;
+    height: 8px;
+    top: 200px;
+    right: -100px;
+    animation-name: speed-effect;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(30, 4, 4, 4);
+}
+
+.speed-effect3 {
+    position: fixed;
+    background: rgb(106, 189, 60);
+    background: linear-gradient(62deg, rgba(106, 189, 60, 1) 15%, rgba(20, 50, 92, 1) 40%, rgba(111, 47, 144, 1) 80%, rgba(210, 86, 205, 1) 96%);
+    width: 2100px;
+    height: 8px;
+    top: 300px;
+    right: -100px;
+    animation-name: speed-effect;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 4, 4, 4);
+}
+
+.speed-effect4 {
+    position: fixed;
+    background: rgb(106, 189, 60);
+    background: linear-gradient(62deg, rgba(106, 189, 60, 1) 15%, rgba(20, 50, 92, 1) 40%, rgba(111, 47, 144, 1) 80%, rgba(210, 86, 205, 1) 96%);
+    width: 2100px;
+    height: 8px;
+    top: 400px;
+    right: -100px;
+    animation-name: speed-effect;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 4, 4, 4);
+}
+
+.speed-effect5 {
+    position: fixed;
+    background: rgb(106, 189, 60);
+    background: linear-gradient(62deg, rgba(106, 189, 60, 1) 15%, rgba(20, 50, 92, 1) 40%, rgba(111, 47, 144, 1) 80%, rgba(210, 86, 205, 1) 96%);
+    width: 2100px;
+    height: 8px;
+    top: 500px;
+    right: -100px;
+    animation-name: speed-effect;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 4, 4, 4);
+}
+
+.speed-effect6 {
+    position: fixed;
+    background: rgb(106, 189, 60);
+    background: linear-gradient(62deg, rgba(106, 189, 60, 1) 15%, rgba(20, 50, 92, 1) 40%, rgba(111, 47, 144, 1) 80%, rgba(210, 86, 205, 1) 96%);
+    width: 2100px;
+    height: 8px;
+    top: 600px;
+    right: -100px;
+    animation-name: speed-effect;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 4, 4, 4);
+}
+
+.speed-effect7 {
+    position: fixed;
+    background: rgb(106, 189, 60);
+    background: linear-gradient(62deg, rgba(106, 189, 60, 1) 15%, rgba(20, 50, 92, 1) 40%, rgba(111, 47, 144, 1) 80%, rgba(210, 86, 205, 1) 96%);
+    width: 2100px;
+    height: 8px;
+    top: 700px;
+    right: -100px;
+    animation-name: speed-effect;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 4, 4, 4);
+}
+
+/* ===================================================== */
+
+@keyframes engine {
+    0% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes movement-effect {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(250%);
+    }
+}
+
+@keyframes speed-effect {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translatex(-2000%);
+    }
+}
+
+
+
+@keyframes wheels-rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+/* ========================CAR============================== */
+
+
+
+
+
+
+.vehicle {
+    max-width: 1500px;
+    margin: 0 auto;
+    position: relative;
+    top: 885px;
+    left: -1700px;
+    animation-name: movement-effect;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+/* Wheels */
+
+
+
+.wheels-vehicle {
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    border: yellowgreen;
+    border-style: dotted;
+    z-index: 5;
+    animation-name: wheels-rotate;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+
+
+.wheels-vehicle2 {
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    border: yellowgreen;
+    border-style: dotted;
+    z-index: 5;
+    animation-name: wheels-rotate;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+}
+
+
+.vehicle__headlight {
+    position: absolute;
+    z-index: 5;
+    left: 1180px;
+    top: 90px;
+    width: 70px;
+    height: 20px;
+    background: rgb(4, 5, 4);
+    background: linear-gradient(62deg, rgba(4, 5, 4, 1) 32%, rgba(226, 221, 221, 1) 69%, rgba(114, 125, 102, 1) 87%);
+    border-radius: 5px;
+}
+
+.vehicle__engine {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border: black;
+    border-style: solid;
+    right: 370px;
+    top: 50px;
+    animation-name: engine;
+    animation-duration: 30s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+.wheels-vehicle__disk {
+    width: 120px;
+    height: 120px;
+    background-image: url("../img/images.jpg");
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+
+    top: 26px;
+    left: 26px;
+    border: white;
+    border-style: dashed;
+
+}
+
+.wheels-vehicle2__disk {
+    width: 120px;
+    height: 120px;
+    background-image: url("../img/images.jpg");
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+    top: 26px;
+    left: 26px;
+    border: white;
+    border-style: dashed;
+
+}
+
+
+/* Chassis */
+
+
+.vehicle__chassis {
+    background-color: black;
+    width: 1000px;
+    height: 20px;
+    border-radius: 75% 25% 89% 11% / 0% 100% 0% 100%;
+    position: absolute;
+    top: 240px;
+    left: 140px;
+    z-index: 2;
+}
+
+.vehicle__rear-wing {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+
+
+
+.vehicle__exhaus {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: -20px;
+    transform: rotate(20deg);
+}
+
+.vehicle__exhaus-part {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top: 95px;
+    left: -30px;
+    transform: rotate(20deg);
+}
+
+
+.cockpit-vehicle__window {
+    width: 5px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 285px;
+    z-index: 7;
+    transform: rotate(-20deg);
+}
+
+
+.cockpit-vehicle__part1 {
+    position: absolute;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    left: 220px;
+    top: 210px;
+    transform: skew(10deg);
+    z-index: 2;
+}
+
+.cockpit-vehicle__part2 {
+    width: 900px;
+    height: 100px;
+    border-radius: 30% 70% 82% 18% / 0% 82% 18% 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(132, 190, 68, 1) 34%, rgba(6, 6, 6, 1) 66%);
+    position: absolute;
+    border: black;
+    border-style: double;
+    z-index: 4;
+
+}
+
+
+
+.cockpit-vehicle__part3 {
+    z-index: 2;
+    width: 350px;
+    height: 150px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 44%, rgba(132, 190, 68, 1) 48%, rgba(6, 6, 6, 1) 55%);
+    position: absolute;
+    left: 900px;
+    top: 80px;
+    border-radius: 100% 0% 100% 0% / 0% 45% 55% 100%;
+}
+
+.cockpit-vehicle__part4 {
+    background-color: black;
+    position: absolute;
+    width: 20px;
+    height: 90px;
+    top: 70px;
+    left: 40px;
+    transform: rotate(20deg);
+
+}
+
+.cockpit-vehicle__part5 {
+    position: absolute;
+    width: 600px;
+    height: 150px;
+    border-radius: 100% 0% 2% 98% / 0% 100% 0% 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 44%, rgba(132, 190, 68, 1) 48%, rgba(6, 6, 6, 1) 55%);
+    top: 80px;
+    left: 300px;
+    z-index: 2;
+}
+
+.cockpit-vehicle__door-handle {
+    width: 40px;
+    height: 5px;
+    background-color: darkgray;
+    z-index: 3;
+    position: absolute;
+    top: 110px;
+    left: 350px;
+}
+
+.cockpit-vehicle__part6 {
+    background: url("../img/carbon.jpg");
+    background-size: contain;
+    position: absolute;
+    top: 80px;
+    left: 65px;
+    width: 1000px;
+    height: 170px;
+}
+
+
+
+
+
+/* ====================================================== */
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(28deg, rgba(0, 0, 0, 1) 10%, rgba(132, 190, 68, 1) 17%, rgba(6, 6, 6, 1) 23%);
+}
