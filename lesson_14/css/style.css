@@ -59,7 +59,7 @@ body {
     animation-name: speed-effect;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(15, 30, 30, 50);
+    animation-timing-function: cubic-bezier(1, 30, 30, 50);
 
 }
 
@@ -74,7 +74,7 @@ body {
     animation-name: speed-effect;
     animation-duration: 1.2s;
     animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(30, 4, 4, 4);
+    animation-timing-function: cubic-bezier(1, 4, 4, 4);
 }
 
 .speed-effect3 {
