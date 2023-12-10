@@ -74,7 +74,7 @@ body {
     animation-name: speed-effect;
     animation-duration: 1.2s;
     animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(1, 1, 4, 4);
+    animation-timing-function: cubic-bezier(1, 4, 1, 4);
 }
 
 .speed-effect3 {
