@@ -1,0 +1,239 @@
+/*******Reset*******/
+@import "_reset.scss";
+
+// Fonts //
+@import "_fonts.scss";
+
+// Common //
+@import "_common.scss";
+
+/*******Body*******/
+
+body {
+    background-color: #37393f;
+}
+
+/*******Wrapper*******/
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper>main {
+    flex-grow: 1;
+}
+
+/*******Header*******/
+.header {
+    background-color: yellowgreen;
+    padding: 15px;
+    text-align: center;
+}
+
+/*******News*******/
+$mainColor: white;
+
+.news {
+    background-color: $mainColor;
+    margin: 0 auto;
+    max-width: 1250px;
+    padding: 15px;
+    font-family: "Inter";
+    font-size: 18px;
+
+    &__head-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+
+        @media(max-width:991.98px) {
+            margin-bottom: 25px;
+        }
+
+        @media(max-width:767.98px) {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__head-title {
+        color: #37393f;
+        font-family: "Poppins";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 121%;
+
+        @media(max-width:767.98px) {
+            font-size: 35px;
+        }
+
+        @media(max-width:480px) {
+            text-align: center;
+        }
+    }
+
+    &__head-link {
+        color: $mainColor;
+        background-color: #37393f;
+        padding: 21px 43px;
+        transition: 0.3s;
+
+        @media(max-width:767.98px) {
+            padding: 15px 25px;
+        }
+
+        @media(max-width:480px) {
+            text-align: center;
+        }
+
+        @media (any-hover: hover) {
+            &:hover {
+                background-color: #8d8888;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+.block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
+
+    @media(max-width:767.98px) {
+        display: grid;
+        gap: 56px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 562/363;
+        object-fit: cover;
+        position: relative;
+    }
+
+    &__links {
+        display: flex;
+        margin-bottom: 19px;
+
+        :nth-child(2) {
+            border-right: #208068 solid 2px;
+        }
+
+        @media(max-width:991.98px) {
+            text-align: center;
+        }
+
+        @media(max-width:767.98px) {
+            flex-direction: column;
+
+            :nth-child(2) {
+                border: #208068 solid 2px;
+            }
+
+        }
+
+
+    }
+
+    &__link {
+        padding: 21px 42px;
+        background-color: #53ceaf;
+        color: #208068;
+        transition: 0.3s;
+
+        @media(max-width:991.98px) {
+            padding: 18px 25px;
+        }
+
+        @media(max-width:767.98px) {
+            padding: 10px;
+
+        }
+
+        @media (any-hover: hover) {
+            &:hover {
+                background-color: #1c352e;
+                color: #53ceaf;
+            }
+        }
+
+
+
+        img {
+            width: 14px;
+            height: 14px;
+            aspect-ratio: 14/14;
+            margin-right: 5px;
+        }
+
+    }
+
+
+    &__link--blue {
+        color: $mainColor;
+        background-color: #6B77E5;
+
+        @media (any-hover: hover) {
+            &:hover {
+                background-color: #3945ad;
+            }
+        }
+
+    }
+
+
+    &__title {
+        color: #37393f;
+        font-family: "Poppins";
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 127%;
+        margin-bottom: 13px;
+    }
+
+    &__article {
+        color: #7D7D7D;
+        line-height: 146.187%;
+        margin-bottom: 26px;
+
+        @media(max-width:767.98px) {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__extention-link {
+        color: #6B77E5;
+        font-weight: 600;
+        text-transform: capitalize;
+
+
+
+        @media (any-hover: hover) {
+            &:hover {
+                text-decoration: underline 3px;
+                color: #3945ad;
+            }
+        }
+    }
+}
+
+/*******Footer*******/
+.footer {
+    background-color: yellowgreen;
+    padding: 15px;
+    text-align: center;
+
+}
